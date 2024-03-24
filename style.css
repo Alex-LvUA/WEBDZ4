@@ -1,0 +1,23 @@
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  flex: 1;
+  background-image: linear-gradient(180deg, #aa3, #5f5 200px, #fff);
+}
+.erpage{
+  flex: 1;
+  background-image: linear-gradient(180deg, #fff 50px, #f55 400px, #000);
+}
+
+
+.container {
+  max-width: 960px;
+}
+
+textarea {
+  height: 250px;
+}
